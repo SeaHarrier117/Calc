@@ -11,7 +11,6 @@ void body(int number1)
 	if (response == 'y')
 	{
 		number1 = number1 + number2;
-		char response{ 0 };
 		body(number1);
 	}
 	if (response == 'n')
